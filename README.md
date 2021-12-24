@@ -8,4 +8,6 @@ Hardware differences
 * Different pinout
 * The LEDs are connected the opposite way
 
-This code is a direct adaptation of the original code to work with our variant of the cube
+This code uses a graphical approach to which LEDs should be lit, interleaving between layers.
+
+The timing of the interleaving and graphical effects are implemented using protothreads
